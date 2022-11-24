@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/30b48b1410.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Foodly</title>
+</head>
+<body>
+    
+
+    <div id="intro-page" class="one">
+        <div id="home-div" class="app-container">
+            <div class="home-page">
+                <h1 class="title">Cooking Experience Like a Chef</h1>
+                <p>Let's make a delicious dish with the best recipe for the family</p>
+                <button id="start-btn" class="get-started-btn">
+                    <div class="arrow-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-narrow-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                            <line x1="15" y1="16" x2="19" y2="12"></line>
+                            <line line x1="15" y1="8" x2="19" y2="12"></line>
+                        </svg>
+                    </div>
+                Get Started
+                </button>
+            </div>
+        </div> 
+    </div>
+
+
+
+        <div id="second" class="search-food-container">
+            <div class="top">
+                <div class="find-food-title-container">
+                    <h2>Find Best Recipe For Cooking</h2>
+                </div>
+                <form>
+                    <div class="input-label">
+                    <button id="search-btn-id" class="search-btn"><i class="fa-solid fa-magnifying-glass icon-i"></i></button>
+                        <input id="food-search" class="search-food-input-field" type="search" placeholder="Search Food" autocomplete="off">
+                        <button id="filter-btn-id" class="filter-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-adjustments-horizontal" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <circle cx="14" cy="6" r="2"></circle>
+                                <line x1="4" y1="6" x2="12" y2="6"></line>
+                                <line x1="16" y1="6" x2="20" y2="6"></line>
+                                <circle cx="8" cy="12" r="2"></circle>
+                                <line x1="4" y1="12" x2="6" y2="12"></line>
+                                <line x1="10" y1="12" x2="20" y2="12"></line>
+                                <circle cx="17" cy="18" r="2"></circle>
+                                <line x1="4" y1="18" x2="15" y2="18"></line>
+                                <line x1="19" y1="18" x2="20" y2="18"></line>
+                            </svg>
+                        </button>
+                    </div>
+                </form> 
+            </div>
+            <div id="foods" class="bot">
+                    <h2 id="remove-title" class="recommended-dishes-title">Recommended Dishes</h2>                    <div id="recommended-div" class="recommended-container"></div>
+            </div>
+        </div>
+
+        <div id="third" class="info-page"></div>
+</body>
+<script src="index.js"></script>
+</html>
